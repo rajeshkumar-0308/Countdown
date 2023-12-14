@@ -66,10 +66,6 @@ body{
   color: beige;
 }
 
-.content:hover{
-  font-weight: bold;
-}
-
 @media (min-width:576px) {
   .newyear{
     font-size: 60px;
