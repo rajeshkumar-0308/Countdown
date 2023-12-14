@@ -17,16 +17,23 @@ body{
   backdrop-filter: blur(5.2px);
 }
 
-h1{
-  font-size: 20px;
-  font-weight: 50px;
+.check{
+  font-size: 16px;
   justify-content: center;
 }
 
+/*h1{
+  font-size: px;
+  font-weight: 40px;
+  justify-content: center;
+}*/
+
 p{
   position: relative;
+  align-content: center;
+  align-items: center;
   top: 55px;
-  padding-top: 1.3rem;
+  padding-top: 0.5rem;
 }
 
 p a{
@@ -35,23 +42,30 @@ p a{
   color: whitesmoke;
 }
 
-p a:hover{
-  font-weight: bold;
-  color: white;
-}
+
 
 @media (min-width:576px) {
-  h1{
+  /*h1{
     font-size: 25px;
     font-weight: 30px;
     justify-content: center;
+  }*/
+  .check{
+    font-size: 25px;
+    justify-content: center;
   }
+  
 }
   
 @media (min-width:768px) {
-  h1{
+  /*h1{
     font-size: 30px;
     font-weight: 40px;
     justify-content: center;
+  }*/
+  .check{
+    font-size: 32px;
+    justify-content: center;
   }
+  
 }

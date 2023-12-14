@@ -47,6 +47,28 @@ body{
   font-size: 20px;
 }
 
+.container{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  position: absolute;
+  font-size: 2rem;
+  top: 12rem;
+  left: 3rem;
+}
+
+.content a{
+  text-decoration: none;
+  color: beige;
+}
+
+.content:hover{
+  font-weight: bold;
+}
+
 @media (min-width:576px) {
 .newyear{
   font-size: 60px;
@@ -63,6 +85,22 @@ p{
 }
 .box small{
   font-size: 15px;
+}
+.container{
+  position: relative;
+  
+}
+
+.content{
+  position: absolute;
+  font-size: 5rem;
+  top: 3rem;
+  left: 8rem;
+}
+
+.content a{
+  text-decoration: none;
+  color: beige;
 }
 }
 
@@ -82,5 +120,20 @@ p{
   }
   .box small{
       font-size: 15px;
+  }
+  .container{
+    position: relative;
+  }
+  
+  .content{
+    position: absolute;
+    font-size: 5rem;
+    top: 3rem;
+    left: 29rem;
+  }
+  
+  .content a{
+    text-decoration: none;
+    color: beige;
   }
 }
